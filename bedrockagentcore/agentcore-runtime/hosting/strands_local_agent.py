@@ -50,7 +50,7 @@ class BedrockStrandsAgent:
 
 
 if __name__ == "__main__":
-    ## To test this agent locally, invoke from shell --> python strands_agent.py '{"prompt":"hello"}'
+    ## To test this agent locally, invoke from shell --> python strands__local_agent.py '{"prompt":"hello"}'
     parser = argparse.ArgumentParser()
     parser.add_argument("payload", type=str)
     args = parser.parse_args()
